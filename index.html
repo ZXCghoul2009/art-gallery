@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Картинная галерея</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="icon" href="img/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> 
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="nav">
+				<ul class="menu">
+					<li>
+						<a href="#">
+							Главная
+						</a>
+					</li>
+					<li>
+						<a href="gallery.html">
+							Картины
+						</a>
+					</li>
+					<li>
+						<a href="author.html">
+							О художнике
+						</a>
+					</li>
+					<li>
+						<a href="#footer">
+							Ссылки
+						</a>
+					</li>
+				</ul>
+				<button class="menu-open">
+					<svg class="ham1" viewBox="0 0 100 100" width="50" onclick="this.classList.toggle('active')">
+						<path class="top" d="m 30,33 h 40 c 0,0 9.044436,-0.654587 9.044436,-8.508902 0,-7.854315 -8.024349,-11.958003 -14.89975,-10.85914 -6.875401,1.098863 -13.637059,4.171617 -13.637059,16.368042 v 40" />
+						<path class="middle" d="m 30,50 h 40" />
+						<path class="bottom" d="m 30,67 h 40 c 12.796276,0 15.357889,-11.717785 15.357889,-26.851538 0,-15.133752 -4.786586,-27.274118 -16.667516,-27.274118 -11.88093,0 -18.499247,6.994427 -18.435284,17.125656 l 0.252538,40" />
+					</svg>
+				</button>
+			</div>
+			<div class="overlay">
+				<h1 class="header-title"><b>Картинная галерея</b> <p> Винсента Ван Гога </p></h1>
+			</div>
+		</div>
+	</header>
+	<section id="about" class="about">
+		<div class="container">
+			<div class="card" >
+				<img class="card-image" src="img/tanec.jpg" alt="Танцевальный зал">
+				<h3 class="card-title"><a  class="next-page" href="gallery.html">«Танцевальный зал»</a></h3>
+				<p class="card-text">Представитель течения постимпрессионизма, художник отходит от концепции мгновенной передачи чувственно – эмоциональной картины мира. Он пытается передать глубинно – философский смысл бытия. Становятся ненужными мелкие детали, правила физиологического строения тела и центральные фигуры композиции.
+				</p>
+			</div>
+			<div class="card no-right-margin">
+				<img class="card-image" src="img/spalnya.jpg" alt="Спальня в Арле">
+				<h3 class="card-title"><a class="next-page" href="gallery.html">«Спальня в Арле»</a></h3>
+				<p class="card-text">Через цвета и способы нанесения краски Ван Гог выразил характер и эмоции.
+					Прочная и простая с виду кровать олицетворяет собой спокойствие и защищенность. А четкие контуры вызывают ощущение устойчивости и стабильности.
+					Хоть работа не была признана при жизни художника, она оказала большое влияние на следующее поколение художников.</p>
+			</div>
+			<div class="card" >
+				<img class="card-image" src="img/terasa.jpg" alt="Терраса кафе">
+				<h3 class="card-title"><a class="next-page" href="gallery.html">«Терраса кафе»</a></h3>
+				<p class="card-text">При создании своей картины «Ночная терраса кафе», Ван Гог вовсе не пользовался черной краской. Это полотно было создано в так называемый Арльский период творчества живописца. Это холст так же подтверждает наличие в изобилии любимого автором цвета.
+					Присмотревшись к полотну, можно даже ощутить, что данный цветовой оттенок, переполненный очень насыщенным и ярким
+					свечением, которое, словно появляется из внутренней глубины холста, решительно отрицая обыденную повседневность и скуку.</p>
+			</div>
+			<div class="card no-right-margin">
+				<img class="card-image" src="img/mak.jpg" alt="Красные виноградники">
+				<h3 class="card-title"><a class="next-page" href="gallery.html">«Красные виноградники в Арле»</a></h3>
+				<p class="card-text">Первая проданная картина Винсента Ван Гога, стоимость ее равнялась 400 франкам.
+					Проданная картина носила интригующее название – «Красные виноградники в Арле» и на сегодняшний день цена на это полотно превышает 90 милл.$. На картине от солнца исходят зеленые и желтые блики, которые превращают листья винограда на первом плане картины в багровое зарево. Земля же делается иссиня черной, почти фиолетовой, такой какой ее увидел взор художника.
+				</p>
+			</div>
+		</div>
+	</section>
+	<footer id="footer" class="footer">
+				<h4 class="footer-author">Лучиц Алексей</h4>
+				<div class="social">
+					<a class="social-git" target="_blank" href="https://github.com/ZXCghoul2009"><img src="img/Git.svg" alt="Github"></a>
+					<a class="social-inst" target="_blank" href="https://www.instagram.com/imfuckingslave"><img src="img/Inst.svg" alt="Instagram"></a>
+				</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
