@@ -108,14 +108,14 @@ header a {
 }
 
 .card-title {
-	font-size: 20px;
+	font-size: 1.25em;
 	font-weight: 500;
 	margin-bottom:10px;
 	text-align: center;
 }
 
 .card-text {
-	font-size: 16px;
+	font-size: 1em;
 	text-align: left;
 }
 .card-image {
@@ -132,7 +132,7 @@ header a {
 	font-weight: bold;
 	text-align: center;
 	color:white;
-	font-size: 28px;
+	font-size: 1.7rem;
 	padding: 30px 0 15px;
 }
 
@@ -203,16 +203,12 @@ a:hover {
 }
 
 .gallery-content {
-
 	text-align: center;
-	font-size:0;
 	width: 70%;
 	margin:50px auto;
 }
 
 .gallery-card {
-	display: flex;
-	justify-content: space-between;
 	margin-bottom: 60px;
 	padding:45px 45px 70px 45px;
 	box-shadow:4px 4px 5px rgba(250, 50, 50, .4);
@@ -257,10 +253,6 @@ a:hover {
 	transition: background-color 0.6s ease;
 }
 
-.prev, .next {
-	margin-top: 30px;
-	margin-bottom: 30px;
-}
 
 .slider-dots_item:hover {
 	background-color: #5e5d5d;
@@ -291,7 +283,7 @@ a:hover {
 	width: 60%;
 	display: block;
 	text-align: justify;
-	font-size: 18px;
+	font-size: 1.125em;
 
 }
 
@@ -332,7 +324,7 @@ a:hover {
 
 @media screen and (max-width: 991px) {
 	.header-title {
-		font-size: 90px;
+		font-size: 3.5rem;
     }
 	.container {
 		width: 720px;
@@ -348,7 +340,7 @@ a:hover {
 		width: 540px;
 	}
 	.content {
-		font-size: 16px;
+		font-size: 1em;
 	}
 	header a {
 		color: #fff;
@@ -378,14 +370,24 @@ a:hover {
 	.authors-title {
 		font-size: 1.2rem;
 	}
-	.offer h1 {
-		font-size: 80px;
-	}
 
 	.menu-open {
 		margin-left: auto;
 	}
 	.footer-author {
 		font-size: 1.3rem;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.gallery-content .prev, .gallery-content .next {
+		margin: 0 10px;
+		padding: 15px;
+	}
+	.card-title {
+		font-size: 1em;
+	}
+	.card-text {
+		font-size: 0.82em;
 	}
 }
